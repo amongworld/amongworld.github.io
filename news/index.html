@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmongPEDIA!</title>
+	<link rel="icon" type="image/x-icon" href="faviconwiki.png">
+    <style>
+        body {
+            background-color: #333333;
+            color: white;
+            font-family: Arial, sans-serif;
+			a {color: blue;}
+        }
+		        @keyframes rainbow {
+            0% { color: #ff0000; }
+            14% { color: #ff7f00; }
+            28% { color: #ffff00; }
+            42% { color: #00ff00; }
+            56% { color: #0000ff; }
+            70% { color: #4b0082; }
+            84% { color: #8b00ff; }
+            100% { color: #ff0000; }
+        }
+
+        rainbow-text {
+            animation: rainbow 3s linear infinite;
+            font-size: 1em;
+        }
+    </style>
+	<img src="wiki.png" alt="Wiki Logo" style="width:1000px;height:320px;">
+	<h1>AmongPEDIA! - News & Announcements of AmongWORLD!</h1>
+	<h2>From there, AmongPEDIA!, the qualified wiki, you can read the most important, latest and best announcements, news, blogs, staff shitposts and updates of AmongWORLD!.</h2>
+	<br>
+	<h1>Featured Articles</h1>
+	<p>None, come back soon!</p>
+	<br>
+	<h1>Latest Articles</h1>
+	<p>None, come back soon!</p>
+	<br>
+	<h1>Staff Shitposts</h1>
+	<p>None, come back soon!</p>
+	<br>
+	<h1>Other</h1>
+	<p>None, come back soon!</p>
+</head>
+<body>
+    <script>
+        customElements.define('rainbow-text', class extends HTMLElement {
+            constructor() {
+                super();
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmongWORLD!</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <style>
+        body {
+            background-color: #333333;
+            color: white;
+            font-family: Arial, sans-serif;
+			a {color: blue;}
+        }
+		        @keyframes rainbow {
+            0% { color: #ff0000; }
+            14% { color: #ff7f00; }
+            28% { color: #ffff00; }
+            42% { color: #00ff00; }
+            56% { color: #0000ff; }
+            70% { color: #4b0082; }
+            84% { color: #8b00ff; }
+            100% { color: #ff0000; }
+        }
+
+        rainbow-text {
+            animation: rainbow 3s linear infinite;
+            font-size: 1em;
+        }
+    </style>
+	<p><a href="https://cea1-2001-ee0-1a5b-e084-95a5-ace1-5fae-373d.ngrok-free.app">Click here for manual redirection (updated daily)</a></p>
+	<meta http-equiv="Refresh" content="0; url='https://cea1-2001-ee0-1a5b-e084-95a5-ace1-5fae-373d.ngrok-free.app'" />
+</head>
+<body>
+    <script>
+        customElements.define('rainbow-text', class extends HTMLElement {
+            constructor() {
+                super();
+            }
+        });
+    </script>
+</body>
+</html>

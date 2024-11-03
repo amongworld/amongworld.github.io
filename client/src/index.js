@@ -28572,7 +28572,7 @@ class SimuloNetworkClient {
 var SimuloNetworkClient_default = SimuloNetworkClient;
 
 // node_modules/box2d-wasm/dist/es/Box2D.jsmd
-var cursorRes = await fetch("/assets/textures/cursor.svg");
+var cursorRes = await fetch("https://amongworld.github.io/client/assets/textures/cursor.svg");
 var cursorSVG = await cursorRes.text();
 var personPoints = [{
   x: 0,

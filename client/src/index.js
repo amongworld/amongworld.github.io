@@ -5,7 +5,7 @@ var __getProtoOf = Object.getPrototypeOf;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __toESM = (mod, isNodeMode, target) => {
-  target = mod  {};
+  target = mod || {};
   const to = isNodeMode || mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target;
   for (let key of __getOwnPropNames(mod))
     if (__hasOwnProp.call(to, key))
